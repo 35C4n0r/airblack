@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Rozha+One&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    padding: 0;
+    box-sizing: border-box;
+    /*margin: 0;*/
+    background: #0F1014;
+}
+
+#root{
+    padding: 0;
+}
+
+.rozha-one {
+    font-family: "Rozha One", serif;
+}
