@@ -83,7 +83,7 @@ function Form() {
           </div>
         </div>
         <div className={"mt-3 p-3"}>
-          <button className="btn btn-primary bg-primary w-full">Submit</button>
+          <button className="btn btn-primary bg-primary w-full border-primary">Submit</button>
         </div>
 
 
