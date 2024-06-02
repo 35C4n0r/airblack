@@ -2,7 +2,7 @@ function Form() {
   return (
       <div className="rounded-xl flex flex-col gap-y-[0.rem] bg-white">
         <div className="bg-primary rounded-t-xl">
-          <p className="text-lg p-3 font-bold text-sm text-center text-white">
+          <p className="p-3 font-bold text-sm text-center text-white">
             Fill the form below to enquire
           </p>
         </div>
@@ -22,8 +22,8 @@ function Form() {
               </div>
               <div className={"flex gap-x-1"}>
                 <div>
-                  <select className="select select-bordered w-full">
-                    <option disabled selected>+91</option>
+                  <select className="select select-bordered text-black">
+                    <option selected>+91</option>
                     <option>+33</option>
                     <option>+111</option>
                   </select>
@@ -42,7 +42,7 @@ function Form() {
                 <span className="label-text">*Select your profession</span>
               </div>
               <div>
-                <select className="select select-bordered w-full">
+                <select className="select select-bordered w-full text-black">
                   <option disabled className={""} selected>Choose the most relevant option</option>
                   <option>+33</option>
                   <option>+111</option>
@@ -57,7 +57,7 @@ function Form() {
                 <span className="label-text">*Select your goal</span>
               </div>
               <div>
-                <select className="select select-bordered w-full">
+                <select className="select select-bordered w-full text-black">
                   <option disabled selected>Choose the most relevant option</option>
                   <option>+33</option>
                   <option>+111</option>
@@ -72,7 +72,7 @@ function Form() {
                 <span className="label-text">*Select your city</span>
               </div>
               <div>
-                <select className="select select-bordered w-full">
+                <select className="select select-bordered w-full text-black">
                   <option disabled selected>Choose the most relevant option</option>
                   <option>+33</option>
                   <option>+111</option>
